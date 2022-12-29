@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
-import { store } from './redux/store';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { store } from './redux/store';
 import Home from './screens/Home';
 import MapScreen from './screens/MapScreen';
 import Food from './screens/Food';
